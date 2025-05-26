@@ -1,0 +1,447 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.main{
+
+    background-image: linear-gradient(90deg, rgba(1, 0, 0, 0.8), rgba(237, 235, 235, 0)), url("img/Rectangle 1.png");
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+    
+    background-size: cover;
+    position: relative;
+
+
+    
+}
+
+
+
+.main::before{
+    content: '';
+    background-image: url(img/Rectangle\ 2.png);
+    position: absolute;
+    left: 0;
+
+}
+
+
+
+
+.tittle{
+    padding: 180px 150px;
+    
+}
+
+
+
+
+.tittle h1{
+    font-size: 55px;
+    color: white;
+    
+    
+
+}
+
+.tittle p{
+    
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    
+    
+
+}
+
+.bt{
+    padding: 12px;
+    border-radius: 5px;
+    background-color: #EF233C;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    font-family: "Satisfy", cursive;
+}
+
+.bodys{
+    
+    display: flex;
+    
+    height: 500px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    border-radius: 25px;
+}
+
+
+
+.part1{
+    margin: 40px;
+    padding: 10px 60px;
+    position: relative;
+    text-align: left;
+}
+
+.part1 h1{
+    font-size: 2.6rem;
+}
+
+.part1 p{
+    font-family: "Montserrat", sans-serif;
+}
+
+.bts{
+    padding: 12px;
+    border-radius: 5px;
+    background-color: #EF233C;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    font-family: "Satisfy", cursive;
+    
+}
+
+.part2{
+    position: absolute;
+    margin-left: 1000px;
+    padding: 10px;
+
+}
+
+.part3{
+    margin: 40px;
+    margin-top: 5px;
+    padding: 10px 60px;
+    position: relative;
+    text-align: left;
+    
+}
+
+.part4{
+
+    position: absolute;
+    margin-left: 1000px;
+    padding: 50px 0;
+
+}
+
+.bodys2{
+
+    text-align: center;
+    margin: 20px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+
+.bodys2 h1{
+    font-size: 2.6rem;
+    
+}
+
+.bodys3{
+   
+    
+    margin: 0px auto;
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.help{
+    display: flex;
+
+    width: 400px;
+    justify-content: center;
+    background-color: #fef4fe;
+    border-radius: 25px;
+    margin: 20px;
+
+
+}
+
+.help1i{
+    margin-top: 23px;
+}
+
+.help2{
+    padding-left: 20px;
+}
+
+
+.clear{
+    clear: both;
+}
+
+.bodys4{
+   
+    
+    margin: 0px auto;
+    width: 80%;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.bodys5{
+
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.bodys5 img{
+
+    margin: 20px;
+}
+
+.lastpart{
+    
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+
+
+.last{
+    border: 2px solid rgb(196, 196, 196);
+    
+    border-radius: 16px;
+    margin: 10px;
+    
+}
+
+.lasti{
+    width: 100%;
+}
+
+.data{
+    margin: 0 20px;
+}
+
+.data a{
+
+    color: rgb(197, 46, 46);
+    font-size: 1.5rem;
+
+}
+
+.foter{
+
+    height: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.foter h1{
+    font-family: "Satisfy", cursive;
+}
+
+.facebook{
+    height: 25px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and ( max-width: 992px) {
+
+.main{
+    height: 700px;
+}
+
+
+
+.tittle h1{
+    font-size: 2.5rem;
+    color: white;
+ 
+}
+
+.tittle{
+    padding: 200px 70px;
+    
+}
+
+.bt{
+    margin-left: 80px;
+}
+
+
+
+
+
+
+.tittle p{
+    
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    
+    
+
+}
+
+.bodys{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 760px;
+  
+    
+}
+.part1{
+    margin: 0px;
+}
+
+
+.part1 h1{
+    font-size: 1.2rem;
+}
+
+.part1 p{
+    font-size: 13px;
+}
+
+
+
+
+.part2{
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 45px;
+    margin-top: 390px;
+
+}
+
+.part2i{
+    height: 300px;
+    width: 300px;
+}
+
+
+.part3{
+    margin: 0px;
+    margin-top: 5px;
+    
+    
+}
+
+.part4{
+
+    
+    
+    margin-left: 45px;
+    margin-top: 260px;
+    
+
+}
+
+.part4 p{
+    font-size: 12px;
+}
+
+
+.bodys2 h1{
+    font-size: 1.6rem;
+    
+}
+
+.bodys2 p{
+    font-size: 20px;
+    
+}
+
+.bodys3{
+   
+    
+    flex-direction: column;
+
+    }
+
+.bodys4{
+   
+    
+    flex-direction: column;
+
+    }
+
+
+
+.bodys5{
+
+    
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 70px;
+    
+}
+
+.bodys5 img{
+
+    height: 300px;
+    width: 300px;
+    
+}
+
+
+.data p{
+        font-size: 10px;
+}
+
+.data a{
+        font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
